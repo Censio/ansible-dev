@@ -1,7 +1,7 @@
 parallel 'build-deb':{
     node(){
         checkout scm
-        sh 'build-debian-censio.sh'
+        sh './build-debian-censio.sh'
     }
 }, 'build-docker':{
     node('docker'){ 
