@@ -13,7 +13,7 @@ except ImportError:
             " install setuptools).")
     sys.exit(1)
 
-setup(name='truemotion-ansible',
+setup(name='true-ansible',
       version=__version__,
       description='Radically simple IT automation',
       author=__author__,
